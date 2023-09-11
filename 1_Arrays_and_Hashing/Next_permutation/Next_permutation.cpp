@@ -1,6 +1,9 @@
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
+
+        //case 1 :  next_permutation(arr,arr.size()); <--use this to directly find answer but for interviews Here is other solution
+
         int n = nums.size();
         int k, l;
 
