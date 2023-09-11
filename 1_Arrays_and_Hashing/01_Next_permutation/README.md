@@ -1,8 +1,19 @@
-# Question Next_permutation
+# Next_permutation : Problem Statement
 
-# Given an array Arr[] of integers, rearrange the numbers of the given array into the lexicographically next greater permutation of numbers.
+### *Given an array Arr[] of integers, <br> rearrange the numbers of the given array into the lexicographically next greater permutation of numbers. <br> If such an arrangement is not possible, it must rearrange to the lowest possible order (i.e., sorted in ascending order).*
 
-# If such an arrangement is not possible, it must rearrange to the lowest possible order (i.e., sorted in ascending order).
+*Example 1:<br>
+Input: nums = [1,2,3] <br>
+Output: [1,3,2]*
 
-================================================================================================================================
-Brute force : find all permutations, search input and return the next permutation
+*Example 2:<br>
+Input: nums = [3,2,1] <br>
+Output: [1,2,3]*
+
+*Example 3:<br>
+Input: nums = [1,1,5] <br>
+Output: [1,5,1]*
+
+---
+
+*1. Brute force : find all permutations, search input and return the next permutation*
