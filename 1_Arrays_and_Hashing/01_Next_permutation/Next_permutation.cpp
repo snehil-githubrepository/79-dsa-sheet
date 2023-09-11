@@ -1,44 +1,40 @@
 class Solution {
 public:
-    void nextPermutation(vector<int>& nums) {
+    //TIME COMPLEXITY ~ O(n) + O(n) + O(n) ~ O(3n)
+    //SPACE COMPLEXITY = O(1)
 
-        //case 1 :  next_permutation(arr,arr.size()); <--use this to directly find answer but for interviews Here is other solution
+    vector<int> nextPermutation(vector<int>& arr) {
+        //the break point variable
+        int ind=-1;
 
-        int n = nums.size();
-        int k, l;
-
-        for(k  = n-2; k  >= 0; k--) {
-            if(nums[k] < nums[k+1]) {
+        int n = arr.size();
+        //O(n)
+        for(int i = n-2; i >= 0; i--) {
+            if(arr[i] < arr[i+1]) {
+                ind = i;
                 break;
             }
         }
-        if (k < 0) {
-    	    reverse(nums.begin(), nums.end());
-    	} else {
-    	    for (l = n - 1; l > k; l--) {
-                if (nums[l] > nums[k]) {
-                    break;
-                }
-            } 
-    	    swap(nums[k], nums[l]);
-    	    reverse(nums.begin() + k + 1, nums.end());
 
-            // Test cases for this 
-            
-            //Example 1
-
-            // Input: nums = [1,2,3]
-            // Output: [1,3,2]
-
-            // Example 2:
-
-            // Input: nums = [3,2,1]
-            // Output: [1,2,3]
-
-            // Example 3:
-
-            // Input: nums = [1,1,5]
-            // Output: [1,5,1]
+        //for last permutation
+        if(ind == -1) {
+            reverse(arr.begin(), arr.end());
+            return arr;
         }
+
+        //step 2
+        //O(n)
+        for(int i = n-1; i > ind; i-- ) {
+            if(arr[i] > arr[ind]) {
+                swap(arr[i], arr[ind]);
+                break;
+            }
+        }
+
+        //last step
+        //O(n)
+        reverse(arr.begin() + ind + 1, arr.end());
+
+        return arr;
     }
 };
