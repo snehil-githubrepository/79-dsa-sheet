@@ -1,7 +1,6 @@
 # Question Next_permutation
 
-Given an array Arr[] of integers, rearrange the numbers of the given array into the lexicographically next greater permutation of numbers.
-If such an arrangement is not possible, it must rearrange to the lowest possible order (i.e., sorted in ascending order).
+### Given an array Arr[] of integers, rearrange the numbers of the given array into the lexicographically next greater permutation of numbers. If such an arrangement is not possible, it must rearrange to the lowest possible order (i.e., sorted in ascending order).
 
 
 1. Brute force : find all permutations, search input and return the next permutation
