@@ -99,10 +99,10 @@ _We make the whole array in the sorted order at first._
 
   > Now, after loop is completed we move i to next value in right, but it should not be equal to the a[i] value it had before so if there are similar values just skip all of them to generate a new triplet with a new a[i] value. so we take triplet with the same condtions we followed before, where we will stop the loop if j >= k
 
-      ```cpp
-          arr[] = [-2, -2, -2, -1, -1, -1, 0, 0, 0, 2, 2, 2, 2]
-          //we keep moving with i placed at -2 , j placed at -2 and k placed at 2
-          //in this way we will generate just 3 triplets
-          // {(0, 0, 0), (-1, -1, 2) , (-2, 0, 2)}
-          //Rest of code in the cpp file.
-      ```
+```cpp
+    arr[] = [-2, -2, -2, -1, -1, -1, 0, 0, 0, 2, 2, 2, 2]
+    //we keep moving with i placed at -2 , j placed at -2 and k placed at 2
+    //in this way we will generate just 3 triplets
+    // {(0, 0, 0), (-1, -1, 2) , (-2, 0, 2)}
+    //Rest of code in the cpp file.
+```
