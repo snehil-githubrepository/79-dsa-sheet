@@ -127,3 +127,30 @@ return maxi;
 
 > Time Complexity : O(N) <br>
 > Space Complexity : O(1)
+
+---
+
+#### Follow up : Can you print subarray with maxi sum (any subarrays )
+
+```cpp
+int sum = 0, maxi = INT_MIN;
+int start = 0;
+int ansStart = -1, ansEnd = -1;
+for(int i = 0; i < nums.size(); i++) {
+    if(sum == 0) start = i;//we are starting a new subarray
+    sum += nums[i];
+
+    if(sum > maxi) {
+       maxi = sum;
+       ansStart = start;
+       ansEnd = i;
+    }
+
+    if(sum < 0) {
+        sum = 0;
+    }
+}
+```
+
+> Time : Still O(N) <br>
+> Space : O(1)
