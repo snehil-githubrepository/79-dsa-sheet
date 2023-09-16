@@ -2,7 +2,6 @@
 
 ### _Given an integer array arr, find the contiguous subarray (containing at least one number) which has the largest sum and returns its sum and prints the subarray._
 
-===
 _Example 1:<br>
 Input: nums = [-2,1,-3,4,-1,2,1,-5,4]<br>
 Output: 6_
@@ -36,7 +35,7 @@ for(i = 0; i < n; i++) {
 }
 ```
 
-> Time complexity : O(N ^ 3)
+> Time complexity : O(N ^ 3) <br>
 > Space complexity : O(1)
 
 ---
@@ -64,7 +63,7 @@ for(i = 0; i < n; i++) {
 }
 ```
 
-> Time complexity : O(N ^ 2)
+> Time complexity : O(N ^ 2) <br>
 > Space Complexity : O(1)
 
 ---
@@ -126,5 +125,5 @@ for(int i = 0; i < nums.size(); i++) {
 return maxi;
 ```
 
-> Time Complexity : O(N)
+> Time Complexity : O(N) <br>
 > Space Complexity : O(1)
