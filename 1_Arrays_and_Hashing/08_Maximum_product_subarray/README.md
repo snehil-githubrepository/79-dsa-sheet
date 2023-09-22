@@ -1,6 +1,6 @@
 # Maximum Product Subarray : Problem Statement
 
-#_Given an array that contains both negative and positive integers, find the maximum product subarray._
+## _Given an array that contains both negative and positive integers, find the maximum product subarray._
 
 _Example 1:<br/>
 Input: <br/>
