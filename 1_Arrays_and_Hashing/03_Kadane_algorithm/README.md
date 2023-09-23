@@ -5,8 +5,8 @@
 ### _Given an integer array arr, find the contiguous subarray (containing at least one number) which has the largest sum and returns its sum and prints the subarray._
 
 ```cpp
-Example 1:<br>
-Input: nums = [-2,1,-3,4,-1,2,1,-5,4]<br>
+Example 1:
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
 Output: 6
 ```
 
