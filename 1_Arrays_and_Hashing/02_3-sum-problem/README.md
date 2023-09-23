@@ -4,21 +4,21 @@
 
 ### _Given an array of N integers, <br> your task is to find unique triplets that add up to give a sum of zero. <br> In short, you need to return an array of all the unique triplets [arr[a], arr[b], arr[c]] <br> such that i!=j, j!=k, k!=i, and their sum is equal to zero._
 
-```
-Example 1:<br/>
-Input: nums = [-1,0,1,2,-1,-4]<br/>
+```cpp
+Example 1:
+Input: nums = [-1,0,1,2,-1,-4]
 Output: [[-1,-1,2],[-1,0,1]]
 ```
 
-```
-Example 2:<br/>
-Input: nums = [0,1,1]<br/>
+```cpp
+Example 2:
+Input: nums = [0,1,1]
 Output: []
 ```
 
-```
-Example 3:<br/>
-Input: nums = [0,0,0]<br/>
+```cpp
+Example 3:
+Input: nums = [0,0,0]
 Output: [[0,0,0]]
 ```
 

@@ -4,20 +4,20 @@
 
 ### _Given an array Arr[] of integers, <br> rearrange the numbers of the given array into the lexicographically next greater permutation of numbers. <br> If such an arrangement is not possible, it must rearrange to the lowest possible order (i.e., sorted in ascending order)._
 
-```
-Example 1:<br>
-Input: nums = [1,2,3] <br>
+```cpp
+Example 1:
+Input: nums = [1,2,3]
 Output: [1,3,2]
 ```
 
-```
-Example 2:<br/>
-Input: nums = [3,2,1] <br/>
+```cpp
+Example 2:
+Input: nums = [3,2,1]
 Output: [1,2,3]
 ```
 
-```
-Example 3:<br/>
+```cpp
+Example 3:
 Output: [1,5,1]
 ```
 

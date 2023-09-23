@@ -4,21 +4,21 @@
 
 ### _Given an integer array arr, find the contiguous subarray (containing at least one number) which has the largest sum and returns its sum and prints the subarray._
 
-```
+```cpp
 Example 1:<br>
 Input: nums = [-2,1,-3,4,-1,2,1,-5,4]<br>
 Output: 6
 ```
 
-```
-Example 2:<br/>
-Input: nums = [1]<br/>
+```cpp
+Example 2:
+Input: nums = [1]
 Output: 1
 ```
 
-```
-Example 3:<br/>
-Input: nums = [5,4,-1,7,8]<br/>
+```cpp
+Example 3:
+Input: nums = [5,4,-1,7,8]
 Output: 23
 ```
 

@@ -4,15 +4,15 @@
 
 ### _Given an array of N integers. Find the elements that appear more than N/3 times in the array. If no such element exists, return an empty vector_
 
-```
-Example 1:<br/>
-Input: N = 5, array[] = {1,2,2,3,2}<br/>
+```cpp
+Example 1:
+Input: N = 5, array[] = {1,2,2,3,2}
 Result: 2
 ```
 
-```
-Example 2:<br/>
-Input : N = 6, array[] = {11,33,33,11,33,11} <br/>
+```cpp
+Example 2:
+Input : N = 6, array[] = {11,33,33,11,33,11}
 Result: 11 33
 ```
 

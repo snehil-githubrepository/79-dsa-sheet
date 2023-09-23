@@ -4,15 +4,15 @@
 
 ### _Given an array of integers A and an integer B. Find the total number of subarrays having bitwise XOR of all elements equal to k._
 
-```
-Example 1:<br/>
-Input : arr[] = {4, 2, 2, 6, 4}, k = 6<br/>
+```cpp
+Example 1:
+Input : arr[] = {4, 2, 2, 6, 4}, k = 6
 Output : 4
 ```
 
-```
-Example 2:<br/>
-Input : arr[] = {5, 6, 7, 8, 9}, k = 5<br/>
+```cpp
+Example 2:
+Input : arr[] = {5, 6, 7, 8, 9}, k = 5
 Output : 2
 ```
 

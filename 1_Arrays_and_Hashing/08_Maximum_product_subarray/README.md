@@ -4,19 +4,19 @@
 
 ## _Given an array that contains both negative and positive integers, find the maximum product subarray._
 
-```
-Example 1:<br/>
-Input: <br/>
-Nums = [1,2,3,4,5,0]<br/>
-Output:<br/>
+```cpp
+Example 1:
+Input:
+Nums = [1,2,3,4,5,0]
+Output:
 120
 ```
 
-```
-Example 2:<br/>
-Input:<br/>
-Nums = [1,2,-3,0,-4,-5]<br/>
-Output:<br/>
+```cpp
+Example 2:
+Input:
+Nums = [1,2,-3,0,-4,-5]
+Output:
 20
 ```
 

@@ -4,21 +4,21 @@
 
 ### _Given an array of N integers, count the inversion of the array (using merge-sort). What is an inversion of an array? Definition: for all i & j < size of array, if i < j then you have to find pair (A[i],A[j]) such that A[j] < A[i]._
 
-```
-Example 1: <br/>
-Input Format: N = 5, array[] = {1,2,3,4,5} <br/>
+```cpp
+Example 1:
+Input Format: N = 5, array[] = {1,2,3,4,5}
 Result: 0
 ```
 
-```
-Example 2:<br/>
-Input Format: N = 5, array[] = {5,4,3,2,1}<br/>
+```cpp
+Example 2:
+Input Format: N = 5, array[] = {5,4,3,2,1}
 Result: 10
 ```
 
-```
-Example 3:<br/>
-Input Format: N = 5, array[] = {5,3,2,1,4} <br/>
+```cpp
+Example 3:
+Input Format: N = 5, array[] = {5,3,2,1,4}
 Result: 7
 ```
 
