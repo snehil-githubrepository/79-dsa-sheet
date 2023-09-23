@@ -11,13 +11,13 @@ Output: [1,3,2]
 ```
 
 ```
-Example 2:<br>
-Input: nums = [3,2,1] <br>
+Example 2:<br/>
+Input: nums = [3,2,1] <br/>
 Output: [1,2,3]
 ```
 
 ```
-Example 3:<br>
+Example 3:<br/>
 Output: [1,5,1]
 ```
 

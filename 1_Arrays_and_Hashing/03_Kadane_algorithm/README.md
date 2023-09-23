@@ -11,14 +11,14 @@ Output: 6
 ```
 
 ```
-Example 2:<br>
-Input: nums = [1]<br>
+Example 2:<br/>
+Input: nums = [1]<br/>
 Output: 1
 ```
 
 ```
-Example 3:<br>
-Input: nums = [5,4,-1,7,8]<br>
+Example 3:<br/>
+Input: nums = [5,4,-1,7,8]<br/>
 Output: 23
 ```
 
