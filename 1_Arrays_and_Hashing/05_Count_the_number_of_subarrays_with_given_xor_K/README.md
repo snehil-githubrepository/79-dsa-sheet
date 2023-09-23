@@ -1,14 +1,20 @@
 # Count the number of subarrays with given xor K : Problem Statement
 
+---
+
 ### _Given an array of integers A and an integer B. Find the total number of subarrays having bitwise XOR of all elements equal to k._
 
+```
 _Example 1:<br>
 Input : arr[] = {4, 2, 2, 6, 4}, k = 6<br>
 Output : 4_
+```
 
+```
 _Example 2:<br>
 Input : arr[] = {5, 6, 7, 8, 9}, k = 5<br>
 Output : 2_
+```
 
 ---
 

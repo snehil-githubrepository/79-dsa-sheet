@@ -1,14 +1,20 @@
 # Majority Elements(>N/3 times) : Problem Statement
 
+---
+
 ### _Given an array of N integers. Find the elements that appear more than N/3 times in the array. If no such element exists, return an empty vector_
 
+```
 _Example 1:<br>
 Input: N = 5, array[] = {1,2,2,3,2}<br>
 Result: 2_
+```
 
+```
 _Example 2:<br>
 Input : N = 6, array[] = {11,33,33,11,33,11} <br>
 Result: 11 33_
+```
 
 ---
 
@@ -105,4 +111,3 @@ for(i= 0-> n-1)  //o(N)
 - we are keeping track of 2 elements and their count is stored in cnt1 and cnt2 and these 2 elements are stored as el1, el2.
 - we keep updating these 2 elements on basis of increasing their counter and keeping track that it is not common element in el1 and el2.
 - we remove the cnt of element if the nums[i] is not equal to the el1 or el2
-

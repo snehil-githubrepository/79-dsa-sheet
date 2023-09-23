@@ -1,18 +1,26 @@
 # Next_permutation : Problem Statement
 
+---
+
 ### _Given an array Arr[] of integers, <br> rearrange the numbers of the given array into the lexicographically next greater permutation of numbers. <br> If such an arrangement is not possible, it must rearrange to the lowest possible order (i.e., sorted in ascending order)._
 
-_Example 1:<br>
+```
+Example 1:<br>
 Input: nums = [1,2,3] <br>
-Output: [1,3,2]_
+Output: [1,3,2]
+```
 
+```
 _Example 2:<br>
 Input: nums = [3,2,1] <br>
 Output: [1,2,3]_
+```
 
+```
 _Example 3:<br>
 Input: nums = [1,1,5] <br>
 Output: [1,5,1]_
+```
 
 ---
 
