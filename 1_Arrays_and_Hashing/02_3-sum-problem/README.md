@@ -5,52 +5,53 @@
 ### _Given an array of N integers, <br> your task is to find unique triplets that add up to give a sum of zero. <br> In short, you need to return an array of all the unique triplets [arr[a], arr[b], arr[c]] <br> such that i!=j, j!=k, k!=i, and their sum is equal to zero._
 
 ```
-_Example 1:<br>
+Example 1:<br>
 Input: nums = [-1,0,1,2,-1,-4]<br>
-Output: [[-1,-1,2],[-1,0,1]]_
+Output: [[-1,-1,2],[-1,0,1]]
 ```
 
 ```
-_Example 2:<br>
+Example 2:<br>
 Input: nums = [0,1,1]<br>
-Output: []_
+Output: []
 ```
 
 ```
-_Example 3:<br>
+Example 3:<br>
 Input: nums = [0,0,0]<br>
-Output: [[0,0,0]]_
+Output: [[0,0,0]]
 ```
 
 ---
 
-- 1. _Brute force_
-     > Let's try all the triplets that give the sum zero and we return only the unique ones
+#### 1. Brute force
 
-  ```cpp
-      set<vector<int>> st;//to store unique triplets
-      for(i = 0; i < n; i++) {
-          for(j = i+1; j < n; j++) {
-              for(k = j+1; k < n; k++) {
-                  if(a[i]+a[j]+a[k] == 0) {
-                      //store triplet {a[i], a[j], a[k]}
-                      vector<int> temp = {a[i], a[j], a[k]};
-                      sort(temp.begin(), temp.end());
-                      st.insert(temp);
-                  }
-              }
-          }
-      }
-      vector<vector<int>> ans(st.begin(), st.end());
-      return ans;
-  ```
+> Let's try all the triplets that give the sum zero and we return only the unique ones
 
-  _now for avoiding storing duplicate triplets we can actually sort them out, now if we do get duplicate we will have to just sort it to avoid using that again_
-  <br>
-  _for storing unique we use : set_
+```cpp
+    set<vector<int>> st;//to store unique triplets
+    for(i = 0; i < n; i++) {
+        for(j = i+1; j < n; j++) {
+            for(k = j+1; k < n; k++) {
+                if(a[i]+a[j]+a[k] == 0) {
+                    //store triplet {a[i], a[j], a[k]}
+                    vector<int> temp = {a[i], a[j], a[k]};
+                    sort(temp.begin(), temp.end());
+                    st.insert(temp);
+                }
+            }
+        }
+    }
+    vector<vector<int>> ans(st.begin(), st.end());
+    return ans;
+```
 
-  > TIME Complexity = O(n^3) x log(no. of unique triplets)
-  > Space Complexity = 2 x O(no. of triplets)
+_now for avoiding storing duplicate triplets we can actually sort them out, now if we do get duplicate we will have to just sort it to avoid using that again_
+<br>
+_for storing unique we use : set_
+
+> TIME Complexity = O(n^3) x log(no. of unique triplets)
+> Space Complexity = 2 x O(no. of triplets)
 
 ---
 

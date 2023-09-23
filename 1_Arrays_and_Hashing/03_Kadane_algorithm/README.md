@@ -5,26 +5,26 @@
 ### _Given an integer array arr, find the contiguous subarray (containing at least one number) which has the largest sum and returns its sum and prints the subarray._
 
 ```
-_Example 1:<br>
+Example 1:<br>
 Input: nums = [-2,1,-3,4,-1,2,1,-5,4]<br>
-Output: 6_
+Output: 6
 ```
 
 ```
-_Example 2:<br>
+Example 2:<br>
 Input: nums = [1]<br>
-Output: 1_
+Output: 1
 ```
 
 ```
-_Example 3:<br>
+Example 3:<br>
 Input: nums = [5,4,-1,7,8]<br>
-Output: 23_
+Output: 23
 ```
 
 ---
 
-1. _Brute force_
+#### 1. Brute force
 
 Since, its a subarray -> elements need to be contiguous
 

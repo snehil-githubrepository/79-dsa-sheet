@@ -11,20 +11,19 @@ Output: [1,3,2]
 ```
 
 ```
-_Example 2:<br>
+Example 2:<br>
 Input: nums = [3,2,1] <br>
-Output: [1,2,3]_
+Output: [1,2,3]
 ```
 
 ```
-_Example 3:<br>
-Input: nums = [1,1,5] <br>
-Output: [1,5,1]_
+Example 3:<br>
+Output: [1,5,1]
 ```
 
 ---
 
-_1. Brute force :_
+#### 1. Brute force :
 
 - 1. generate all the sorted permutations in dictionary order
 - 2. linear search for the input given in quesiton
