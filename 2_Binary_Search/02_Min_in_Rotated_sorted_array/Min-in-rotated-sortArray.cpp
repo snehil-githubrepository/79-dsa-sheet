@@ -1,5 +1,7 @@
 class Solution {
     public :
+        //TC : O(Log N) : Average , if duplicates i.e. worst case => O(N)
+        //SC : O(1)
         int findMin(vector<int>& arr) {
             int low = 0, high = arr.size() - 1;
             int ans = INT_MAX;
