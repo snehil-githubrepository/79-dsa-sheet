@@ -1,5 +1,7 @@
 # Problem Statement : Aggressive Cows
 
+**`Medium`**
+
 ---
 
 ## _You are given an array ‘arr’ of size ‘n’ which denotes the position of stalls._

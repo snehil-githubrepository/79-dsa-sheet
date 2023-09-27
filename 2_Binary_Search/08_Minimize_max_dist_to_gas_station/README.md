@@ -1,6 +1,6 @@
 # Problem Statement : <br> Minimise Maximum Distance between Gas Stations
 
-**Medium**
+**`Medium`**
 
 ---
 

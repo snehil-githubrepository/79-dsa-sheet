@@ -1,6 +1,6 @@
 # Problem Statement : Koko Eating Bananas
 
-**Medium**
+**`Medium`**
 
 ---
 

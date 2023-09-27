@@ -1,5 +1,7 @@
 # Problem Statement : Median of 2 sorted arrays
 
+**`Hard`**
+
 ---
 
 ## _Given two sorted arrays `arr1 and arr2` of size m and n respectively, return the `median of the two sorted arrays`.<br> The median is defined as the middle value of a sorted list of numbers. In case the length of the list is even, the `median is the average of the two middle elements`._
