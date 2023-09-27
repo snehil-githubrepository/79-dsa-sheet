@@ -4,12 +4,14 @@
 
 ## _Given an integer array arr of size N, sorted in ascending order (with distinct values). Now the array is rotated between 1 to N times which is unknown. Find the minimum element in the array._
 
+<div style="background-color: rgb(50, 50, 50);">
 ```cpp
 Example 1:
 Input Format: arr = [4,5,6,7,0,1,2,3]
 Result: 0
 Explanation: Here, the element 0 is the minimum element in the array.
 ```
+</div>
 
 ```cpp
 Example 2:

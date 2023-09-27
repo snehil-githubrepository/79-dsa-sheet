@@ -36,4 +36,4 @@ class solution {
             }
             return false;
         }
-}
+};
