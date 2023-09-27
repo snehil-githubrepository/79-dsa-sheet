@@ -1,6 +1,6 @@
 class Solution {
-    public : 
-        int minimumRateToEatBananas(vector<int> v, int h) {
-                
-        }    
+public:
+    int minEatingSpeed(vector<int>& piles, int h) {
+        
+    }
 };
