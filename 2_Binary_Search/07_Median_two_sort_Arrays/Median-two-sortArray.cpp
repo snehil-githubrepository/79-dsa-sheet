@@ -1,5 +1,7 @@
 class Solution {
     public:
+        //TC : O(log(min(n1, n2)))
+        //SC : O(1)
         double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
             int n1 = a.size(), n2 = b.size();
             //if n1 is bigger swap the arrays:
