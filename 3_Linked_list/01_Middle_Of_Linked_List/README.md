@@ -10,7 +10,7 @@ Output: [3,4,5]
 ```
 
 ```cpp
-Example 1:
+Example 2:
 
 Input: head = [1,2,3,4,5,6]
 Output: [4,5,6]
