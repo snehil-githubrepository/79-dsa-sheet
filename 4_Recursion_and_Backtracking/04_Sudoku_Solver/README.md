@@ -40,7 +40,7 @@ Output:
 - Once we found the right match we will return true and return the whole board with right set of numbers
 - Since the question stated only 1 valid sudoku we return when we find a TRUE. 
 
-> Most probably there will be many possibilities and the complexity will become huge.
+> Most probably there will be many possibilities but that won't be asked probably because the complexity will become huge.
 ---
 
 
